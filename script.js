@@ -1,10 +1,5 @@
-
 function onButtonClick() {
-    number = Math.floor(Math.random() * 5);
-    if (number == oldNum) {
-        number += 1 % 5;
-    }
-    switch (number) {
+    switch (Math.floor(Math.random() * 5)) {
         case 0:
             document.getElementById("funFact").innerHTML = 'Joyce has a crippling addiction to mobile games.';
             break;
